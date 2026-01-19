@@ -1,0 +1,10 @@
+/* Fixing cell dimensions on my chess board. It should no longer resize when
+* pieces appear on certain squares, or disappear.
+* I was also working on handling the end of the game when there's checkmate.
+* I made a game-result div with a results message and a restart button.
+*/
+
+.cell {
+    width: 62px;
+    max-height: 62px;
+    min-height: 62px;
